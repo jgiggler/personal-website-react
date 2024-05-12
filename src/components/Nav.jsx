@@ -19,7 +19,7 @@ function Nav() {
     return (
     <div className={isDarkMode ? 'dark-theme' : 'light-theme'}>
       <nav className='sidebar'>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
           <Link to="/projects">Projects</Link>
           
             
