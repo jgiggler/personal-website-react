@@ -1,0 +1,178 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.light-theme {
+  color: #132035;
+  background-color: #fefaf6;
+}
+.dark-theme {
+  background-color: #0f0f0f;
+  color: #008170;
+}
+.light-theme nav{
+  background-color: #4b3f20;
+  color: #dac0a3;
+  
+}
+.dark-theme nav{
+  color: #008170;
+  background-color: #1a212e;
+}
+.light-theme a{
+  color: #eadbc8;
+}
+.dark-theme a{
+  color: #008170;
+  
+}
+
+.light-theme button{
+  color: black;
+  background-color: #dac0a3;
+}
+
+.dark-theme button{
+  color: black;
+  background-color: #008170;
+}
+.light-theme a:hover{
+  color: black;
+  text-decoration: underline;
+}
+.dark-theme a:hover{
+  color: white;
+  text-decoration: underline;
+  
+}
+.light-theme button:hover{
+  color: whitesmoke;
+  background-color: #b39069;
+}
+
+.dark-theme button:hover{
+  color: white;
+  background-color: #005b41;
+}
+.main-content {
+  margin-left: 160px; /* Width of sidebar + some margin for spacing */
+  
+}
+
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+/* The navigation menu links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+.sidebar .social-box {
+  padding-top: 450px;
+  display: flex;
+  justify-content: center;
+}
+.sidebar .socials {
+  font-size: 10px;
+}
+/* When you mouse over the navigation links, change their color */
+
+footer {
+  padding-bottom: 6px;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.2em 0.8em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#projects-section {
+  display: flex;
+  justify-content:space-around;
+}
+.project-info {
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  
+}
+.project-tech {
+  border-radius: 5px;
+  padding: 4px;
+}
+.project-link {
+  background-image: linear-gradient(green, lightgreen);
+  padding-left:  90px;
+  padding-right: 90px;
+  border-radius: 5px;
+  
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.project-link-none {
+  background-color: gray;
+  padding-left:  80px;
+  padding-right: 80px;
+  border-radius: 5px;
+  color: black;
+  cursor: not-allowed;
+}
+
+.project-notes {
+  text-align: left;
+  margin: 10px;
+}
+.project-link:hover {
+  color: black;
+  border: 3px solid ;
+  padding-left:  90px;
+  padding-right: 90px;
+  border-radius: 5px;
+}
+.project-display{
+  text-align: center;
+  padding-top: 2%;
+  border: 1px solid;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+.thumbnail{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  
+ }
+ .icon {
+  max-height: 40px;
+  max-width: 100%;
+ }
+ .tag{
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 14px;
+}
