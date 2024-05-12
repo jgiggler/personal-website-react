@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
+import ghlogo from '../images/github.png';
+import linklogo from '../images/linkedin.png'
 
 function Nav() {
     const [isDarkMode, setIsDarkMode] = useState(true);
@@ -26,8 +27,8 @@ function Nav() {
 
           <div className='social-box'>
           
-          <a className="socials" href='https://github.com/jgiggler'><img src="github.png" className='icon'/>Github</a>
-          <a className="socials" href='https://www.linkedin.com/in/joel-gilger/'><img src="linkedin.png" className='icon'/>LinkedIn</a>
+          <a className="socials" href='https://github.com/jgiggler'><img src={ghlogo} className='icon'/>Github</a>
+          <a className="socials" href='https://www.linkedin.com/in/joel-gilger/'><img src={linklogo} className='icon'/>LinkedIn</a>
           </div>
           <footer>&copy; Joel Gilger 2024</footer>
           <button onClick={toggleTheme}>Change Theme</button>

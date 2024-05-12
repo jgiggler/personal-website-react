@@ -1,5 +1,7 @@
 import React, {useState, useEffect } from 'react';
-
+import osrs from '../images/osrshome.png';
+import blood from '../images/bloodhome.png';
+import personal from '../images/personalhome.png';
 function ProjectsPage() {
 
     return (
@@ -13,7 +15,7 @@ function ProjectsPage() {
             <p>Here are some projects that I have worked on</p>
             <div id="projects-section">
             <div className="project-display">
-                <img src="osrshome.png" className="thumbnail"/>
+                <img src={osrs} className="thumbnail"/>
                 
                     <div className="project-info">Runescape Item Guessing Game</div>
                     <div className="project-tech">
@@ -31,7 +33,7 @@ function ProjectsPage() {
                 </div>
                 
             <div className="project-display">
-            <img src="bloodhome.png" className="thumbnail"/>
+            <img src={blood} className="thumbnail"/>
             
                 <div className="project-info">Blood Data and Personal Image Gallery</div>
                 <div className="project-tech">
@@ -49,7 +51,7 @@ function ProjectsPage() {
         
         
             <div className="project-display">
-            <img src="personalhome.png" className="thumbnail"/>
+            <img src={personal} className="thumbnail"/>
             
                 <div className="project-info">Personal Website</div>
                 <div className="project-tech">
