@@ -1,7 +1,13 @@
 import React, {useState, useEffect } from 'react';
+import resume from '../images/JG-resume-2024.pdf';
+import Skills from '../components/skills'
 
 function HomePage() {
+    const [showResume, setShowResume] = useState(false);
 
+    const toggleResume = () => {
+        setShowResume(!showResume);
+      };
 
     return (
     <>    
@@ -21,6 +27,15 @@ function HomePage() {
             My passion for web develop has become a priority and I have decided to make that passion a profession.
             </p>
             </div>
+            <button onClick={toggleResume}>{showResume ? 'Hide Resume' : 'Show Resume'}</button>
+            {showResume && (
+            <div id='pdf-container'>
+                <embed src={resume} type='application/pdf' width="95%" height="100%"/>
+            </div>
+            )}
+            
+            {<Skills/>}
+            
         </article>
         </div>
         

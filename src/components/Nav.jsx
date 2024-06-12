@@ -30,8 +30,8 @@ function Nav() {
           <a className="socials" href='https://github.com/jgiggler'><img src={ghlogo} className='icon'/>Github</a>
           <a className="socials" href='https://www.linkedin.com/in/joel-gilger/'><img src={linklogo} className='icon'/>LinkedIn</a>
           </div>
-          <footer>&copy; Joel Gilger 2024</footer>
-          <button onClick={toggleTheme}>Change Theme</button>
+          <footer className='footer1'>&copy; Joel Gilger 2024</footer>
+          <button className='footer2' onClick={toggleTheme}>Change Theme</button>
       </nav>
     </div>
     );
